@@ -1,6 +1,3 @@
-const btn = document.querySelector(".btn_change");
-const txtbox = document.querySelector("#user_input");
-const output = document.querySelector("#result");
 
 // copy and paste
 // function txtCopyPaste(){
@@ -8,9 +5,12 @@ const output = document.querySelector("#result");
 //   // print out to textarea
 //   output.value = userTxt;
 // }
-
+  
 //save
 function txtSave(){
+  const btn = document.querySelector(".btn_change");
+  const txtbox = document.querySelector("#user_input");
+  const output = document.querySelector("#result");
   const comArr = [];
   let userTxt = txtbox.value;
   let arrUserTxt = userTxt.split("");
